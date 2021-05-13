@@ -10,6 +10,7 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
+
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -19,37 +20,48 @@ const Navigation = () => {
     <>
       <Navbar color="dark" dark expand="lg" className="sticky-top">
         <Container>
-          <NavbarBrand href="/">Aiden</NavbarBrand>
+          <NavbarBrand href="/">
+            <img
+              class="logo"
+              src="favicon.png"
+              style={{ width: '25px', height: '25px' }}
+            />
+            <span
+              style={{
+                marginLeft: '10px',
+                paddingTop: '15px',
+                fontWeight: 'bold',
+              }}
+            >
+              Aiden
+            </span>
+          </NavbarBrand>
           <NavbarToggler onClick={handleToggle} />
           <Collapse isOpen={isOpen} navbar>
-            <Nav
-              className="ml-auto d-felx justify-content-around"
-              navbar
-              style={{ fontWeight: 'bold' }}
-            >
+            <Nav className="d-flex" navbar style={{ fontWeight: 'bold' }}>
               <NavItem>
-                <Form className="col pr-3 p-1">
+                <Form className="col p-1">
                   <NavLink href="#about" className="text-decoration-none">
                     About
                   </NavLink>
                 </Form>
               </NavItem>
               <NavItem>
-                <Form className="col pr-3 p-1">
+                <Form className="col p-1">
                   <NavLink href="#skills" className="text-decoration-none">
                     Skills
                   </NavLink>
                 </Form>
               </NavItem>
               <NavItem>
-                <Form className="col pr-3 p-1">
+                <Form className="col p-1">
                   <NavLink href="#work" className="text-decoration-none">
                     Work
                   </NavLink>
                 </Form>
               </NavItem>
               <NavItem>
-                <Form className="col pr-3 p-1">
+                <Form className="col p-1">
                   <NavLink
                     href="#testimonials"
                     className="text-decoration-none"
@@ -59,7 +71,7 @@ const Navigation = () => {
                 </Form>
               </NavItem>
               <NavItem>
-                <Form className="col pr-3 p-1">
+                <Form className="col p-1">
                   <NavLink href="#contact" className="text-decoration-none">
                     Contact
                   </NavLink>
