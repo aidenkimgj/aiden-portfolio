@@ -1,11 +1,11 @@
 import React from 'react';
 
-const testimonials = () => {
+const Testimonials = () => {
   return (
     <>
-      <div>testimonials</div>
+      <div>Testimonials</div>
     </>
   );
 };
 
-export default testimonials;
+export default Testimonials;

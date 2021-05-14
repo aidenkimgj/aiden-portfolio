@@ -24,13 +24,13 @@ const Navigation = () => {
             <img
               class="logo"
               src="favicon.png"
-              style={{ width: '25px', height: '25px' }}
+              style={{ width: '25px', height: '25px', marginBottom: '5px' }}
             />
             <span
               style={{
                 marginLeft: '10px',
-                paddingTop: '15px',
                 fontWeight: 'bold',
+                fontSize: '22px',
               }}
             >
               Aiden
@@ -39,6 +39,13 @@ const Navigation = () => {
           <NavbarToggler onClick={handleToggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="d-flex" navbar style={{ fontWeight: 'bold' }}>
+              <NavItem>
+                <Form className="col p-1">
+                  <NavLink href="#home" className="text-decoration-none">
+                    Home
+                  </NavLink>
+                </Form>
+              </NavItem>
               <NavItem>
                 <Form className="col p-1">
                   <NavLink href="#about" className="text-decoration-none">

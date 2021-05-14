@@ -6,12 +6,14 @@ import {
   Work,
   Testimonials,
   Contact,
+  Home,
 } from './components';
 
 const App = () => {
   return (
     <>
       <Navigation />
+      <Home />
       <About />
       <Skills />
       <Work />
