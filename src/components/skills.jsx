@@ -17,6 +17,13 @@ const Skills = () => {
       <div id="skill" className="section">
         <div className="section__container">
           <h1>Skills</h1>
+          <h2>Skills & Attributes</h2>
+          <p>
+            Experience with all phases of the software life-cycle. Passion for
+            learning new technologies. Capable of working within a team
+            environment and independently. Ability to plan and time schedule,
+            work under strict time pressure and adapt quickly when needed.
+          </p>
           <div className="skillset">
             <div className="skillset__left">
               <h3 className="skillset__title">Skills</h3>
