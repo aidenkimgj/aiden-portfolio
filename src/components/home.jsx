@@ -23,8 +23,9 @@ const Home = () => {
                 id="type"
                 options={{
                   strings: [
-                    'Hello',
                     "I'm Aiden who dreams of becoming an awesome developer in Calgary",
+                    'New Tech Seeker',
+                    'Full Stack Developer',
                     "Please hire me (●'◡'●)",
                   ],
                   autoStart: true,
