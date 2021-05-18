@@ -24,7 +24,7 @@ const Navigation = () => {
             <img
               class="logo"
               src="favicon.png"
-              style={{ width: '25px', height: '25px', marginBottom: '5px' }}
+              style={{ width: '30px', height: '30px', marginBottom: '5px' }}
             />
             <span
               style={{
