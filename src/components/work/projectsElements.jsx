@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-// import { FaSearch } from 'react-icons/fa';
 
 export const ProjectsContainer = styled.div`
   height: 90vh;
@@ -57,7 +56,7 @@ export const ProjectsCard = styled.div`
   color: #fff;
   background-color: #fff;
   /* background: linear-gradient(#f8f8f8, #fff); */
-  background: #175282;
+  background: #ffc107;
   box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.4);
   border-radius: 6px;
   overflow: hidden;
@@ -86,7 +85,7 @@ export const ProjectsH1 = styled.h1`
   font-size: 2.5rem;
   text-align: center;
   /* color: #000; */
-  color: #fff;
+  color: #1f171a;
   margin-bottom: 2.5rem;
   position: relative;
 
@@ -154,7 +153,7 @@ export const ProjectLang = styled.li`
   border-color: none;
   padding: 5px;
   margin: 5px;
-  background: #000;
+  background: #f58905;
   color: #fff;
   font-size: 0.8rem;
 `;
@@ -164,7 +163,7 @@ export const ProjectTech = styled.li`
   border-color: none;
   padding: 5px;
   margin: 5px;
-  background: #06357b;
+  background: #ffc107;
   color: #fff;
   font-size: 0.8rem;
 `;
@@ -176,54 +175,54 @@ export const ProjectMenuWrapper = styled.div`
   align-items: center;
 `;
 
-export const ProjectFilterButtonWrapper = styled.div`
-  border-radius: 10px;
-  border: 1px solid;
-  border-radius: 4px;
-  color: ${({ filterLang }) => (filterLang !== 'All' ? '#8ebeef' : '#fff')};
-  font-size: '1.2rem';
-  margin-right: 15px;
-  padding: 10px 10px 5px 10px;
-  cursor: pointer;
-  text-align: center;
+// export const ProjectFilterButtonWrapper = styled.div`
+//   border-radius: 10px;
+//   border: 1px solid;
+//   border-radius: 4px;
+//   color: ${({ filterLang }) => (filterLang !== 'All' ? '#8ebeef' : '#fff')};
+//   font-size: '1.2rem';
+//   margin-right: 15px;
+//   padding: 10px 10px 5px 10px;
+//   cursor: pointer;
+//   text-align: center;
 
-  &:hover {
-    transform: scale(1.2);
-    color: #8ebeef;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-  }
-`;
+//   &:hover {
+//     transform: scale(1.2);
+//     color: #8ebeef;
+//     transition: all 0.3s ease-in-out;
+//     cursor: pointer;
+//   }
+// `;
 
-export const ProjectSearchWrapper = styled.div`
-  position: relative;
-  width: 200px;
-  height: 40px;
+// export const ProjectSearchWrapper = styled.div`
+//   position: relative;
+//   width: 200px;
+//   height: 40px;
 
-  @media screen and (max-width: 480px) {
-    width: 150px;
-  }
-`;
+//   @media screen and (max-width: 480px) {
+//     width: 150px;
+//   }
+// `;
 
-export const ProjectSearchBar = styled.input`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  font-size: 1rem;
-  color: #fff;
-  background: transparent;
-  outline: none;
-  /* border: 1px solid #fff; */
-  border: 1px solid;
-  border-radius: 4px;
-  padding: 0 10px 0 45px;
+// export const ProjectSearchBar = styled.input`
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   font-size: 1rem;
+//   color: #fff;
+//   background: transparent;
+//   outline: none;
+//   /* border: 1px solid #fff; */
+//   border: 1px solid;
+//   border-radius: 4px;
+//   padding: 0 10px 0 45px;
 
-  /* &::placeholder {
-    color: #fff;
-  } */
-`;
+//   /* &::placeholder {
+//     color: #fff;
+//   } */
+// `;
 
 // export const ProjectSearchIcon = styled(FaSearch)`
 //   position: absolute;
