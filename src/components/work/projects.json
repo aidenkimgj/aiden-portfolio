@@ -34,7 +34,7 @@
     "name": "My Blog V2",
     "img": "blog.png",
     "details": [
-      "The personal blog that owner users can create, read, update, delete posts, and guest users can read posts and write comments."
+      "The personal blog that owner user can create, read, update, delete posts, and guest users can read posts and write comments."
     ],
     "types": ["Blog"],
     "languages": ["JavaScript", "SCSS", "NodeJS"],

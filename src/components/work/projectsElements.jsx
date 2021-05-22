@@ -128,6 +128,7 @@ export const ProjectLangWrapper = styled.ul`
   flex-wrap: wrap;
   list-style: none;
   justify-content: center;
+  margin-top: 5px;
   margin-bottom: 5px;
 
   /* &::after {
@@ -139,9 +140,9 @@ export const ProjectLangWrapper = styled.ul`
 `;
 
 export const ProjectType = styled.li`
-  border-radius: 10px;
+  border-radius: 9px;
   border-color: none;
-  padding: 4px 10px;
+  padding: 1px 7px;
   margin: 5px;
   background: #00223d;
   color: #fff;
@@ -149,9 +150,9 @@ export const ProjectType = styled.li`
 `;
 
 export const ProjectLang = styled.li`
-  border-radius: 10px;
+  border-radius: 8px;
   border-color: none;
-  padding: 5px;
+  padding: 1px 7px;
   margin: 5px;
   background: #f58905;
   color: #fff;
@@ -159,9 +160,9 @@ export const ProjectLang = styled.li`
 `;
 
 export const ProjectTech = styled.li`
-  border-radius: 10px;
+  border-radius: 8px;
   border-color: none;
-  padding: 5px;
+  padding: 1px 7px;
   margin: 5px;
   background: #ffc107;
   color: #fff;
@@ -331,6 +332,7 @@ export const ProjectsGeneral = styled.div`
 export const ProjectsDetails = styled.p`
   font-size: 1rem;
   line-height: 1.4;
+  margin-top: 5px;
   margin-bottom: 5px;
 `;
 

@@ -1,0 +1,63 @@
+.rec-carousel-item:focus {
+  outline: none;
+  box-shadow: inset 0 0 1px 0px violet;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: all 200ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+  transform: translateY(-100px);
+}
+
+.rec.rec-arrow {
+  color: #ecca09;
+}
+
+.rec.rec-arrow-left {
+  position: absolute;
+  left: 2vw;
+  /* z-index: 2; */
+}
+
+.rec.rec-arrow-right {
+  position: absolute;
+  right: 2vw;
+  /* z-index: 2; */
+}
+
+/* 
+.rec-carousel-item:focus {
+  outline: none;
+  box-shadow: inset 0 0 1px 1px lightgrey;
+} */
+
+.rec-pagination {
+  background: #092038;
+  padding: 5px 10px;
+  margin: 0;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 480px) {
+  .rec.rec-arrow-left {
+    left: 0;
+    transform: scale(0.8);
+  }
+  .rec.rec-arrow-right {
+    right: 0;
+    transform: scale(0.8);
+  }
+  .rec-pagination {
+    transform: scale(0.8);
+  }
+}
