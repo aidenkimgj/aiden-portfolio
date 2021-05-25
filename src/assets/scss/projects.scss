@@ -1,51 +1,40 @@
-.rec-carousel-item:focus {
-  outline: none;
-  box-shadow: inset 0 0 1px 0px violet;
-}
+#work {
+  .rec.rec-arrow {
+    color: #f48805;
+  }
 
-.ReactModal__Overlay {
-  opacity: 0;
-  transform: translateY(-100px);
-  transition: all 200ms ease-in-out;
-}
+  .rec.rec-arrow-left {
+    position: absolute;
+    left: 2vw;
+  }
 
-.ReactModal__Overlay--after-open {
-  opacity: 1;
-  transform: translateX(0px);
-}
+  .rec.rec-arrow-right {
+    position: absolute;
+    right: 2vw;
+  }
 
-.ReactModal__Overlay--before-close {
-  opacity: 0;
-  transform: translateY(-100px);
-}
+  .lhimBS:hover:enabled,
+  .lhimBS:focus:enabled {
+    color: white;
+    background-color: #f48805;
+  }
 
-.rec.rec-arrow {
-  color: #ecca09;
-}
+  .rec-pagination {
+    background: #092038;
+    padding: 5px 8px;
+    margin: 20px;
+    border-radius: 15px;
+  }
 
-.rec.rec-arrow-left {
-  position: absolute;
-  left: 2vw;
-  /* z-index: 2; */
-}
+  .ejXxNI {
+    background-color: #f48805;
+    box-shadow: 0 0 1px 3px #f48805;
+  }
 
-.rec.rec-arrow-right {
-  position: absolute;
-  right: 2vw;
-  /* z-index: 2; */
-}
-
-/* 
-.rec-carousel-item:focus {
-  outline: none;
-  box-shadow: inset 0 0 1px 1px lightgrey;
-} */
-
-.rec-pagination {
-  background: #092038;
-  padding: 5px 10px;
-  margin: 0;
-  border-radius: 15px;
+  .jLgnwX:hover {
+    cursor: pointer;
+    box-shadow: 0 0 1px 3px rgb(244, 136, 5) / 3%;
+  }
 }
 
 @media screen and (max-width: 480px) {
