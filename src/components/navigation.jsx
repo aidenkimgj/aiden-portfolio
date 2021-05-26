@@ -18,7 +18,7 @@ const Navigation = () => {
 
   return (
     <>
-      <Navbar color="dark" dark expand="lg" className="sticky-top">
+      <Navbar dark expand="lg" className="sticky-top">
         <Container>
           <NavbarBrand href="/">
             <img
