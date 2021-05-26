@@ -14,7 +14,7 @@ const ASPDotNetCore = 5;
 const Skills = () => {
   return (
     <>
-      <div id="skill" className="section">
+      <div id="skills" className="section">
         <div className="section__container">
           <h1>Skills</h1>
           <h2>Skills & Attributes</h2>
