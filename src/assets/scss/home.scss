@@ -1,0 +1,41 @@
+#home {
+  background: url('../img/home/blueOcean.png') center/cover no-repeat;
+  padding: 40px;
+  text-align: center;
+  height: 100vh;
+  max-height: 1050px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .home__avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid $color-light-white;
+  }
+
+  .home__title,
+  .home__description {
+    color: $color-white;
+  }
+
+  .home__message {
+    color: aliceblue;
+  }
+
+  .home__contact:hover {
+    background-color: $color-dark-pink;
+    transition: all $animation-duration ease-in;
+  }
+
+  .home__contact {
+    color: $color-white;
+    font-size: $font-regular;
+    font-weight: $weight-bold;
+    margin: 24px;
+    padding: 8px 12px;
+    border: 2px solid $color-white;
+    border-radius: $size-border-radius;
+  }
+}

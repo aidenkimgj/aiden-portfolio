@@ -9,35 +9,35 @@ const Home = () => {
     <>
       <div id="home">
         <Container>
-          <Row>
-            <Col xs={6} md={4}>
-              <Image
-                src={Profile}
-                roundedCircle
-                style={{ width: '200px', height: '200px' }}
-              />
-              <h1 className="home__title">
-                Hi, <br /> I'm Aiden Kim
-              </h1>
-              <Typewriter
-                id="type"
-                options={{
-                  strings: [
-                    "I'm Aiden who dreams of becoming an awesome developer in Calgary",
-                    'New Tech Seeker',
-                    'Full Stack Developer',
-                    "Please hire me (●'◡'●)",
-                  ],
-                  autoStart: true,
-                  loop: true,
-                  delay: 50,
-                }}
-              />
-              <Button className="home__contact" outline color="secondary">
-                Contact Me
-              </Button>
-            </Col>
-          </Row>
+          <Image
+            src={Profile}
+            roundedCircle
+            style={{ width: '200px', height: '200px' }}
+            className="home__avatar"
+          />
+          <h1 className="home__title">
+            Hi, <br /> I'm Aiden Kim
+          </h1>
+          <div className="home__message">
+            <Typewriter
+              id="type"
+              options={{
+                strings: [
+                  "I'm Aiden who dreams of becoming an awesome developer in Calgary",
+                  'New Tech Seeker',
+                  'Full Stack Developer',
+                  "Please hire me (●'◡'●)",
+                ],
+                autoStart: true,
+                loop: true,
+                delay: 50,
+              }}
+            />
+          </div>
+
+          <Button className="home__contact" outline color="secondary">
+            Contact Me
+          </Button>
         </Container>
       </div>
     </>
