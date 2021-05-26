@@ -84,8 +84,8 @@ export const ProjectsIcon = styled.img`
 export const ProjectsH1 = styled.h1`
   font-size: 2.5rem;
   text-align: center;
-  /* color: #000; */
-  color: #1f171a;
+  color: #fff;
+
   margin-bottom: 2.5rem;
   position: relative;
 
