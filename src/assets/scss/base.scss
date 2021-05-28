@@ -1,6 +1,7 @@
 @import './variables.scss';
 @import './navigation.scss';
 @import './home.scss';
+@import './about.scss';
 @import './projects.scss';
 @import './testimonial.scss';
 
@@ -11,7 +12,6 @@
 }
 
 body {
-  margin: 0;
   font-family: 'Open Sans', sans-serif;
   cursor: default;
 }
@@ -61,4 +61,15 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+}
+
+.section {
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+.section__container {
+  max-width: 1000px;
+  margin: auto;
 }
