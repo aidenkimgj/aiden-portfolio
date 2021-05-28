@@ -1,0 +1,91 @@
+#about {
+  max-height: 1000px;
+  .about__me {
+    p {
+      text-align: left;
+      margin: 3% 7%;
+    }
+  }
+}
+
+.major {
+  width: 220px;
+}
+
+.about__majors {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 12%;
+}
+
+.major__icon {
+  text-align: center;
+  margin: auto;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  font-size: 50px;
+  border: 1px solid $color-light-grey;
+  border-radius: 50%;
+}
+
+.major__icon div {
+  transition: $animation-duration;
+  color: $color-grey;
+
+  &:hover {
+    color: $color-light-yellow;
+    transform: rotate(360deg) scale(1.1);
+  }
+}
+
+.major__title,
+.major__description {
+  margin: 10px;
+  color: $color-dark-grey;
+  text-align: center;
+}
+.major__title {
+  font-size: $font-regular;
+  font-weight: $weight-semi-bold;
+}
+
+.major__description {
+  font-size: $font-small;
+}
+.about__jobs {
+  display: flex;
+  justify-content: space-around;
+  margin: 1% 15%;
+}
+.job {
+  height: 161px;
+}
+
+.job__description {
+  margin: 0 16px;
+}
+
+.job__name,
+.job__period {
+  color: $color-dark-grey;
+}
+
+.job__name {
+  font-size: $font-small;
+}
+
+.job__period {
+  font-size: $font-micro;
+}
+
+#job__logo {
+  width: 100px;
+  height: 100px;
+}
+
+#job__logo2 {
+  margin: 24.5px 0px;
+  width: 200px;
+  height: 50px;
+}
