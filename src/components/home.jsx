@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Image } from 'react-bootstrap';
 import { Button, Container, Row } from 'reactstrap';
 import Typewriter from 'typewriter-effect';
-import Profile from '../assets/img/home/aiden-logo-large.png';
+import Profile from '../assets/img/home/aiden2.jpg';
 
 const Home = () => {
   return (

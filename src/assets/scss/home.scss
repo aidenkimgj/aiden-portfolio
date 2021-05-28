@@ -24,11 +24,6 @@
     color: aliceblue;
   }
 
-  .home__contact:hover {
-    background-color: $color-dark-pink;
-    transition: all $animation-duration ease-in;
-  }
-
   .home__contact {
     color: $color-white;
     font-size: $font-regular;
@@ -37,5 +32,10 @@
     padding: 8px 12px;
     border: 2px solid $color-white;
     border-radius: $size-border-radius;
+
+    &:hover {
+      background-color: $color-light-yellow;
+      transition: all $animation-duration ease-in;
+    }
   }
 }
