@@ -52,7 +52,7 @@ export const ProjectsCardWrapper = styled.div`
 
 export const ProjectsCard = styled.div`
   width: 280px;
-  height: 420px;
+  height: 400px;
   color: #fff;
   background-color: #fff;
   /* background: linear-gradient(#f8f8f8, #fff); */

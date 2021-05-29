@@ -14,7 +14,13 @@ import {
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const handleToggle = () => setIsOpen(!isOpen);
+  const handleToggle = () => {
+    if (window.innerWidth < 1000) {
+      setIsOpen(!isOpen);
+    } else {
+      return;
+    }
+  };
 
   return (
     <>
@@ -38,11 +44,16 @@ const Navigation = () => {
           </NavbarBrand>
           <NavbarToggler onClick={handleToggle} />
           <Collapse isOpen={isOpen} navbar>
-            <Nav className="d-flex" navbar style={{ fontWeight: 'bold' }}>
+            <Nav
+              className="d-flex"
+              navbar
+              style={{ fontWeight: 'bold' }}
+              onClick={handleToggle}
+            >
               <NavItem>
                 <Form className="col p-1">
                   <NavLink href="#home" className="text-decoration-none">
-                    Home
+                    <div id="nav__item">Home</div>
                   </NavLink>
                 </Form>
               </NavItem>
