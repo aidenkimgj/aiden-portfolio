@@ -8,13 +8,8 @@ const Home = () => {
   return (
     <>
       <div id="home">
-        <Container>
-          <Image
-            src={Profile}
-            roundedCircle
-            style={{ width: '200px', height: '200px' }}
-            className="home__avatar"
-          />
+        <Container className="home__container">
+          <Image src={Profile} roundedCircle className="home__avatar" />
           <h1 className="home__title">
             Hi, <br /> I'm Aiden Kim
           </h1>
@@ -23,7 +18,7 @@ const Home = () => {
               id="type"
               options={{
                 strings: [
-                  "I'm Aiden who dreams of becoming an awesome developer in Calgary",
+                  'Dreams of becoming an awesome developer in Calgary',
                   'New Tech Seeker',
                   'Full Stack Developer',
                   "Please hire me (●'◡'●)",
@@ -36,7 +31,7 @@ const Home = () => {
           </div>
 
           <Button className="home__contact" outline color="secondary">
-            Contact Me
+            <a href="#contact">Contact Me</a>
           </Button>
         </Container>
       </div>

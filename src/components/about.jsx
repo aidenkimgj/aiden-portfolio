@@ -19,12 +19,13 @@ const About = () => {
             Hello, my future employers! I'm <b>Aiden Kim</b>, dreaming of
             becoming a full-stack developer who believes my code can change
             someone's world and tries to write as much code as possible. <br />
+            <br />
             It is safe to say that the rapid growth of many industries in modern
             society has been driven by advances in programming based on
             information technology. In an era of growing programmer's role in
             helping people lead a better life through continuous problem
             solving, I am also trying hard to become a part of that role. <br />
-            I look forward to the opportunity to demonstrate my skills and
+            <br />I look forward to the opportunity to demonstrate my skills and
             contribute to the success of my future employer by contributing
             significantly to all projects given to me.
           </p>
@@ -39,7 +40,7 @@ const About = () => {
             </div>
             <div className="major__title">Front-end</div>
             <div className="major__description">
-              HTML, CSS, SASS, Bootstrap, JavaScript,
+              HTML, CSS, JavaScript, SASS, Bootstrap, TypeScript
               <br />
               JSP, JSTL, React, Angular, Web APIs
             </div>
@@ -63,7 +64,7 @@ const About = () => {
             </div>
             <div className="major__title">Back-end</div>
             <div className="major__description">
-              Java, JPA, JavaScript, NodeJS,
+              Java, JPA, NodeJS,
               <br />
               Sequlize, Rest APIs, GraphQL
             </div>

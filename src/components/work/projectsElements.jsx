@@ -11,8 +11,8 @@ export const ProjectsContainer = styled.div`
   /* background: #e6eaee; */
   background: #030015;
 
-  @media screen and (max-width: 768px) {
-    min-height: 95vh;
+  @media screen and (max-width: 450px) {
+    min-height: 700px;
     /* padding-bottom: 0; */
     padding: 10vh 0;
   }
@@ -52,7 +52,7 @@ export const ProjectsCardWrapper = styled.div`
 
 export const ProjectsCard = styled.div`
   width: 280px;
-  height: 400px;
+  height: 425px;
   color: #fff;
   background-color: #fff;
   /* background: linear-gradient(#f8f8f8, #fff); */
@@ -68,7 +68,7 @@ export const ProjectsCard = styled.div`
   @media not all and (pointer: coarse) {
     &:hover > * {
       height: 100%;
-      border-radius: 0 5px 5px 0;
+      border-radius: 0 6px 6px 0;
     }
   }
 `;
@@ -104,7 +104,7 @@ export const ProjectsP = styled.p`
   position: relative;
 
   @media screen and (max-width: 480px) {
-    /* font-size: 1.2rem; */
+    // font-size: 1.2rem;
   }
 `;
 
@@ -176,73 +176,12 @@ export const ProjectMenuWrapper = styled.div`
   align-items: center;
 `;
 
-// export const ProjectFilterButtonWrapper = styled.div`
-//   border-radius: 10px;
-//   border: 1px solid;
-//   border-radius: 4px;
-//   color: ${({ filterLang }) => (filterLang !== 'All' ? '#8ebeef' : '#fff')};
-//   font-size: '1.2rem';
-//   margin-right: 15px;
-//   padding: 10px 10px 5px 10px;
-//   cursor: pointer;
-//   text-align: center;
-
-//   &:hover {
-//     transform: scale(1.2);
-//     color: #8ebeef;
-//     transition: all 0.3s ease-in-out;
-//     cursor: pointer;
-//   }
-// `;
-
-// export const ProjectSearchWrapper = styled.div`
-//   position: relative;
-//   width: 200px;
-//   height: 40px;
-
-//   @media screen and (max-width: 480px) {
-//     width: 150px;
-//   }
-// `;
-
-// export const ProjectSearchBar = styled.input`
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   font-size: 1rem;
-//   color: #fff;
-//   background: transparent;
-//   outline: none;
-//   /* border: 1px solid #fff; */
-//   border: 1px solid;
-//   border-radius: 4px;
-//   padding: 0 10px 0 45px;
-
-//   /* &::placeholder {
-//     color: #fff;
-//   } */
-// `;
-
-// export const ProjectSearchIcon = styled(FaSearch)`
-//   position: absolute;
-//   top: 50%;
-//   transform: translateY(-50%);
-//   left: 10px;
-//   font-size: 1.5rem;
-//   color: #fff;
-//   border-right: 1px solid;
-//   /* border-right: 1px solid #fff; */
-//   padding-right: 8px;
-// `;
-
 export const ProjectsAdditional = styled.div`
   position: absolute;
   width: 100%;
   height: 80px;
   align-items: center;
-  background: #00223d; //linear-gradient(#de685e, #ee786e); */
+  background: #00223d;
   transition: height 0.4s;
   overflow: hidden;
   z-index: 2;
@@ -250,14 +189,9 @@ export const ProjectsAdditional = styled.div`
   @media screen and (max-width: 480px) {
     &:hover {
       height: 100%;
-      border-radius: 0 5px 5px 0;
+      border-radius: 0 6px 6px 0;
     }
   }
-
-  /* &:hover {
-    height: 100%;
-    border-radius: 0 5px 5px 0;
-  } */
 `;
 
 export const ProjectTitle = styled.div`

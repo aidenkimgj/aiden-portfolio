@@ -49,90 +49,96 @@ const Work = () => {
               >
                 {Projects.map((project, key) => (
                   <Fade right cascade key={key}>
-                    <ProjectsCard>
-                      <ProjectsAdditional>
-                        <ProjectTitle>{project.name}</ProjectTitle>
-                        <ProjectsMoreInfo>
+                    <div id="projects__card">
+                      <ProjectsCard>
+                        <ProjectsAdditional>
+                          <ProjectTitle>{project.name}</ProjectTitle>
+                          <ProjectsMoreInfo>
+                            <ProjectsIcon
+                              src={
+                                require(`../../assets/img/projects/${project.img}`)
+                                  ?.default
+                              }
+                              // style={{ color: '#fff' }}
+                              alt={project.name}
+                            />
+                            <ProjectCoords>
+                              <ProjectLangWrapper>
+                                {project.languages.map((language, langKey) => (
+                                  <ProjectLang key={langKey}>
+                                    {language}
+                                  </ProjectLang>
+                                ))}
+                              </ProjectLangWrapper>
+                              {project.technologies.length ? (
+                                <ProjectLangWrapper>
+                                  {project.technologies.map(
+                                    (technology, techKey) => (
+                                      <ProjectTech key={techKey}>
+                                        {technology}
+                                      </ProjectTech>
+                                    )
+                                  )}
+                                </ProjectLangWrapper>
+                              ) : (
+                                ''
+                              )}
+                            </ProjectCoords>
+                            <ProjectStats>
+                              <ProjectsLink
+                                href={`${project.git}`}
+                                rel="noreferrer"
+                                target="_blank"
+                              >
+                                <FontAwesomeIcon color="grey" icon={faGithub} />
+                              </ProjectsLink>
+                              {project.link ? (
+                                <ProjectsLink
+                                  href={`${project.link}`}
+                                  rel="noreferrer"
+                                  target="_blank"
+                                >
+                                  <FontAwesomeIcon color="grey" icon={faLink} />
+                                </ProjectsLink>
+                              ) : (
+                                ''
+                              )}
+                            </ProjectStats>
+                          </ProjectsMoreInfo>
+                        </ProjectsAdditional>
+                        <ProjectsGeneral>
                           <ProjectsIcon
                             src={
                               require(`../../assets/img/projects/${project.img}`)
                                 ?.default
                             }
-                            // style={{ color: '#fff' }}
                             alt={project.name}
                           />
-                          <ProjectCoords>
-                            <ProjectLangWrapper>
-                              {project.languages.map((language, langKey) => (
-                                <ProjectLang key={langKey}>
-                                  {language}
-                                </ProjectLang>
-                              ))}
-                            </ProjectLangWrapper>
-                            {project.technologies.length ? (
-                              <ProjectLangWrapper>
-                                {project.technologies.map(
-                                  (technology, techKey) => (
-                                    <ProjectTech key={techKey}>
-                                      {technology}
-                                    </ProjectTech>
-                                  )
-                                )}
-                              </ProjectLangWrapper>
-                            ) : (
-                              ''
-                            )}
-                          </ProjectCoords>
-                          <ProjectStats>
-                            <ProjectsLink
-                              href={`${project.git}`}
-                              rel="noreferrer"
-                              target="_blank"
-                            >
-                              <FontAwesomeIcon color="grey" icon={faGithub} />
-                            </ProjectsLink>
-                            {project.link ? (
-                              <ProjectsLink
-                                href={`${project.link}`}
-                                rel="noreferrer"
-                                target="_blank"
-                              >
-                                <FontAwesomeIcon color="grey" icon={faLink} />
-                              </ProjectsLink>
-                            ) : (
-                              ''
-                            )}
-                          </ProjectStats>
-                        </ProjectsMoreInfo>
-                      </ProjectsAdditional>
-                      <ProjectsGeneral>
-                        <ProjectsIcon
-                          src={
-                            require(`../../assets/img/projects/${project.img}`)
-                              ?.default
-                          }
-                          alt={project.name}
-                        />
-                        <ProjectLangWrapper>
-                          {project.types.map((type, typeKey) => (
-                            <ProjectType key={typeKey}>{type}</ProjectType>
-                          ))}
-                        </ProjectLangWrapper>
-                        <div>
-                          {project.details.map((detail, detailKey) => (
-                            <ProjectsDetails key={detailKey}>
-                              {detail}
-                            </ProjectsDetails>
-                          ))}
-                        </div>
-                        <br />
-                        {window.innerWidth > 480 ? (
-                          <ProjectsMore>Mouse over for more info</ProjectsMore>
-                        ) : (
-                          <ProjectsMore>Touch for more info</ProjectsMore>
-                        )}
-                      </ProjectsGeneral>
-                    </ProjectsCard>
+                          <ProjectLangWrapper>
+                            {project.types.map((type, typeKey) => (
+                              <ProjectType key={typeKey}>{type}</ProjectType>
+                            ))}
+                          </ProjectLangWrapper>
+                          <div>
+                            {project.details.map((detail, detailKey) => (
+                              <ProjectsDetails key={detailKey}>
+                                {detail}
+                              </ProjectsDetails>
+                            ))}
+                          </div>
+                          <br />
+                          {window.innerWidth > 480 ? (
+                            <ProjectsMore>
+                              Mouse over for more info
+                            </ProjectsMore>
+                          ) : (
+                            <ProjectsMore>
+                              Touch title for more info
+                            </ProjectsMore>
+                          )}
+                        </ProjectsGeneral>
+                      </ProjectsCard>
+                    </div>
                   </Fade>
                 ))}
               </Carousel>
