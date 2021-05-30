@@ -1,6 +1,6 @@
 import React from 'react';
-import { Col, Image } from 'react-bootstrap';
-import { Button, Container, Row } from 'reactstrap';
+import { Image } from 'react-bootstrap';
+import { Button, Container } from 'reactstrap';
 import Typewriter from 'typewriter-effect';
 import Profile from '../assets/img/home/aiden2.jpg';
 

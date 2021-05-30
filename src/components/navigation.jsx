@@ -51,8 +51,9 @@ const Navigation = () => {
           <Container>
             <NavbarBrand href="/">
               <img
-                class="logo"
+                className="logo"
                 src="favicon.png"
+                alt="logo"
                 style={{ width: '30px', height: '30px', marginBottom: '5px' }}
               />
               <span
@@ -133,8 +134,9 @@ const Navigation = () => {
           <Container>
             <NavbarBrand href="/">
               <img
-                class="logo"
+                className="logo"
                 src="favicon.png"
+                alt="logo"
                 style={{ width: '30px', height: '30px', marginBottom: '5px' }}
               />
               <span

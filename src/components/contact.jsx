@@ -11,17 +11,26 @@ const Contact = () => {
       <div id="contact" className="section">
         <h1 className="contact__title">Let's talk</h1>
         <div className="contact__links">
-          <a href="mailto:aidenkim3011@gmail.com" target="_blank">
+          <a
+            href="mailto:aidenkim3011@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faEnvelope} size="3x" />
           </a>
 
-          <a href="https://github.com/aidenkimgj" target="_blank">
+          <a
+            href="https://github.com/aidenkimgj"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faGithub} size="3x" />
           </a>
 
           <a
             href="https://www.linkedin.com/in/aiden-gookjin-kim/"
             target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon icon={faLinkedin} size="3x" />
           </a>

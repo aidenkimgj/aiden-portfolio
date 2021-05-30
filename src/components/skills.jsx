@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, ProgressBar } from 'react-bootstrap';
+import { ProgressBar } from 'react-bootstrap';
 
 const HTML = 95;
 const CSS = 80;
@@ -9,9 +9,9 @@ const ReactJS = 88;
 const NodeJS = 60;
 const SQL = 80;
 const Java = 89;
-const CSharp = 10;
-const Angular = 10;
-const ASPDotNetCore = 5;
+// const CSharp = 10;
+// const Angular = 10;
+// const ASPDotNetCore = 5;
 
 const Skills = () => {
   return (

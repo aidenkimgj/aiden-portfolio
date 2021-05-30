@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 import man from '../assets/img/testimonials/man.png';
 import woman from '../assets/img/testimonials/teacherW.png';
 
@@ -43,7 +42,7 @@ const Testimonials = () => {
                   Recusandae animi sapiente praesentium qui.
                 </p>
                 <p className="name">
-                  <a href="">John Doe</a> / Programmer
+                  <a href="#">John Doe</a> / Programmer
                 </p>
               </div>
               <img src={man} alt="People" className="testimonial__avatar" />
