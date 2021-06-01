@@ -1,5 +1,9 @@
 #work {
   .rec.rec-arrow {
+    &:hover {
+      color: white;
+      background-color: #f48805;
+    }
     color: #f48805;
   }
 
@@ -13,11 +17,11 @@
     right: 3vw;
   }
 
-  .lhimBS:hover:enabled,
-  .lhimBS:focus:enabled {
-    color: white;
-    background-color: #f48805;
-  }
+  // .lhimBS:hover:enabled,
+  // .lhimBS:focus:enabled {
+  //   color: white;
+  //   background-color: #f48805;
+  // }
 
   .rec-pagination {
     background: #092038;
@@ -26,14 +30,16 @@
     border-radius: 15px;
   }
 
-  .ejXxNI {
+  .rec-dot_active {
     background-color: #f48805;
     box-shadow: 0 0 1px 3px #f48805;
   }
 
-  .jLgnwX:hover {
-    cursor: pointer;
-    box-shadow: 0 0 1px 3px rgb(190, 140, 78);
+  .rec-dot {
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0 0 1px 3px rgb(190, 140, 78);
+    }
   }
 }
 

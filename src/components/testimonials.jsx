@@ -42,7 +42,7 @@ const Testimonials = () => {
                   Recusandae animi sapiente praesentium qui.
                 </p>
                 <p className="name">
-                  <a href="#">John Doe</a> / Programmer
+                  <a href="#home">John Doe</a> / Programmer
                 </p>
               </div>
               <img src={man} alt="People" className="testimonial__avatar" />
