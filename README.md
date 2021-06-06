@@ -1,7 +1,7 @@
 # Aiden Portfolio
 
-## contact me
+## Contact me
 
-[Portfolio](https://aidenportfolio.netlify.app/r)
-[Linkedin](https://www.linkedin.com/in/aiden-gookjin-kim)
-[Email](mailto:aidenkim3011@gmail.com)
+- [Portfolio](https://aidenportfolio.netlify.app/r)
+- [Linkedin](https://www.linkedin.com/in/aiden-gookjin-kim)
+- [Email](mailto:aidenkim3011@gmail.com)
