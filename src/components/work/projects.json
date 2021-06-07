@@ -41,6 +41,7 @@
     "technologies": [
       "ExpressJS",
       "MongoDB",
+      "React",
       "Redux",
       "Redux Saga",
       "JWT",
