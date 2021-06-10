@@ -83,7 +83,7 @@
     ],
     "types": ["Blog"],
     "languages": ["JavaScript", "CSS"],
-    "technologies": ["Axios", "MySQL", "ExpressJS", "Sequlize", "CKEditor5"],
+    "technologies": ["React", "Axios", "MySQL", "ExpressJS", "Sequlize", "CKEditor5"],
     "git": "https://github.com/aidenkimgj/Blog",
     "link": ""
   }
