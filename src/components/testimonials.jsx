@@ -36,13 +36,18 @@ const Testimonials = () => {
             <div className="testimonial">
               <div className="testimonial__speech-bubble">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptates, itaque sed. Sequi, expedita ea? Totam dolorem
-                  voluptatem quia nemo magnam pariatur repudiandae sed ut saepe!
-                  Recusandae animi sapiente praesentium qui.
+                  “I am sure Aiden has what it takes to be a great developer. He
+                  has a strong sense of responsibility for what he is given and
+                  has the ability to clearly show what he understands or ideas
+                  to others. Aiden also showed not only no afraid of learning
+                  new skills but also tried to solve the difficult problem
+                  quickly and accurately when it faced with him.”
                 </p>
                 <p className="name">
-                  <a href="#home">John Doe</a> / Programmer
+                  <a href="https://www.linkedin.com/in/abraham-sohn-b35b5aa8/">
+                    Abraham Sohn
+                  </a>{' '}
+                  / Senior Software Developer at Skyplan Services Ltd.
                 </p>
               </div>
               <img src={man} alt="People" className="testimonial__avatar" />
