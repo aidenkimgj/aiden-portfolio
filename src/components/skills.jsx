@@ -179,6 +179,9 @@ const Skills = () => {
                   <li>
                     <span>GitHub</span>
                   </li>
+                  <li>
+                    <span>Linux</span>
+                  </li>
                 </ul>
               </div>
             </div>

@@ -1,5 +1,17 @@
 [
   {
+    "name": "FITD Tech(Backend)",
+    "img": "coach.png",
+    "details": [
+      "Recent graduates or current students can easily receive professional advice and career counselling for their future."
+    ],
+    "types": ["Coaching"],
+    "languages": ["JavaScript"],
+    "technologies": ["ExpressJS", "AWS S3", "Google APIs", "MongoDB", "JWT"],
+    "git": "https://github.com/aidenkimgj/fitd-tech-server",
+    "link": ""
+  },
+  {
     "name": "Aurora Forecast",
     "img": "aurora.png",
     "details": [
@@ -83,7 +95,14 @@
     ],
     "types": ["Blog"],
     "languages": ["JavaScript", "CSS"],
-    "technologies": ["React", "Axios", "MySQL", "ExpressJS", "Sequlize", "CKEditor5"],
+    "technologies": [
+      "React",
+      "Axios",
+      "MySQL",
+      "ExpressJS",
+      "Sequlize",
+      "CKEditor5"
+    ],
     "git": "https://github.com/aidenkimgj/Blog",
     "link": ""
   }
