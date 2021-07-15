@@ -42,7 +42,7 @@ const About = () => {
             <div className="major__description">
               HTML, CSS, JavaScript, SASS, Bootstrap, TypeScript
               <br />
-              JSP, JSTL, React, Angular, Web APIs
+              JSP, JSTL, React, Web APIs
             </div>
           </div>
 
@@ -64,7 +64,7 @@ const About = () => {
             </div>
             <div className="major__title">Back-end</div>
             <div className="major__description">
-              Java, JPA, NodeJS,
+              Java, JPA, NodeJS, Mongoose,
               <br />
               Sequlize, Rest APIs, GraphQL
             </div>

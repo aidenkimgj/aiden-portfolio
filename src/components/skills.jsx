@@ -4,7 +4,7 @@ import { ProgressBar } from 'react-bootstrap';
 const HTML = 95;
 const CSS = 80;
 const JavaScript = 85;
-const TypeScript = 10;
+const TypeScript = 50;
 const ReactJS = 88;
 const NodeJS = 60;
 const SQL = 80;
