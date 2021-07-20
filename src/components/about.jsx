@@ -66,7 +66,7 @@ const About = () => {
             <div className="major__description">
               Java, JPA, NodeJS, Mongoose,
               <br />
-              Sequlize, Rest APIs, GraphQL
+              Sequelize, Rest APIs, GraphQL
             </div>
           </div>
         </div>
