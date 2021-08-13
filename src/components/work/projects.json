@@ -9,7 +9,7 @@
     "languages": ["JavaScript"],
     "technologies": ["ExpressJS", "AWS S3", "Google APIs", "MongoDB", "JWT"],
     "git": "https://github.com/aidenkimgj/fitd-tech-server",
-    "link": ""
+    "link": "https://fitd.ca"
   },
   {
     "name": "Aurora Forecast",
