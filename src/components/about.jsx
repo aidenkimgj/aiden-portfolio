@@ -16,9 +16,10 @@ const About = () => {
         <h1>About me</h1>
         <div className="about__me">
           <p>
-            Hello, my future employers! I'm <b>Aiden Kim</b>, dreaming of
-            becoming a full-stack developer who believes my code can change
-            someone's world and tries to write as much code as possible. <br />
+            Hello, my future employers! I am <b>Aiden Kim</b>, dreaming of
+            becoming a full-stack developer. I am a person who believes my code
+            can change someone's world and try to write as much code as
+            possible. <br />
             <br />
             It is safe to say that the rapid growth of many industries in modern
             society has been driven by advances in programming based on
