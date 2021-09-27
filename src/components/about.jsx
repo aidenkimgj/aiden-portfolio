@@ -84,7 +84,7 @@ const About = () => {
                 <b>Southern Alberta Institute of Technology</b> <br /> Software
                 Development
               </p>
-              <p className="job__period">2020 Jan - Until now</p>
+              <p className="job__period">Jan 2020 - Aug 2021</p>
             </div>
           </div>
 
@@ -101,7 +101,7 @@ const About = () => {
                   <b>Dongguk University</b> <br />
                   Economics, Political Diplomacy
                 </p>
-                <p className="job__period">2005 March - 2011 August</p>
+                <p className="job__period">March 2005 - August 2011</p>
               </div>
             </div>
           </div>
