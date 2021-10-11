@@ -1,6 +1,6 @@
 [
   {
-    "name": "FITD Tech(Backend)",
+    "name": "FITD Sever",
     "img": "coach.png",
     "details": [
       "Recent graduates or current students can easily receive professional advice and career counselling for their future."
@@ -9,7 +9,7 @@
     "languages": ["JavaScript"],
     "technologies": ["ExpressJS", "AWS S3", "Google APIs", "MongoDB", "JWT"],
     "git": "https://github.com/aidenkimgj/fitd-tech-server",
-    "link": "https://fitd.ca"
+    "link": ""
   },
   {
     "name": "Aurora Forecast",
