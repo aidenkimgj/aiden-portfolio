@@ -85,7 +85,7 @@
     "languages": ["Java", "JavaScript", "SCSS"],
     "technologies": ["JSP", "Servlet", "MySQL", "JPA", "JDBC", "JSTL"],
     "git": "https://github.com/aidenkimgj/inventory-project",
-    "link": ""
+    "link": "http://159.203.29.150:9091/Inventory/"
   },
   {
     "name": "My Blog V1",
