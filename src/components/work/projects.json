@@ -83,8 +83,18 @@
     ],
     "types": ["Management"],
     "languages": ["Java", "JavaScript", "SCSS"],
-    "technologies": ["JSP", "Servlet", "MySQL", "JPA", "JDBC", "JSTL"],
-    "git": "https://github.com/aidenkimgj/inventory-project",
+    "technologies": [
+      "JSP",
+      "Servlet",
+      "MySQL(AWS RDS)",
+      "JPA",
+      "JDBC",
+      "JSTL",
+      "Maven",
+      "Jenkins",
+      "Tomcat"
+    ],
+    "git": "https://github.com/aidenkimgj/Inventory",
     "link": "http://159.203.29.150:9091/Inventory/"
   },
   {
