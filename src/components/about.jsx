@@ -85,7 +85,7 @@ const About = () => {
                 <b>Southern Alberta Institute of Technology</b> <br /> Software
                 Development
               </p>
-              <p className="job__period">Jan 2020 - Aug 2021</p>
+              <p className="job__period">January 2020 - August 2021</p>
             </div>
           </div>
 
